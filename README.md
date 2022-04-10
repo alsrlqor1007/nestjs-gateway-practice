@@ -1,7 +1,7 @@
 # NestJS 서버로 실시간 대화 기능 개발하기
 
-[NestJS Gateway](https://docs.nestjs.com/websockets/gateways#server) 공식문서
-[Socket.io](https://socket.io/docs/v4/) 공식문서
+[NestJS Gateway](https://docs.nestjs.com/websockets/gateways#server) 공식문서  
+[Socket.io](https://socket.io/docs/v4/) 공식문서  
 with Brian Johnson's youtube channel [click here](https://www.youtube.com/channel/UCf96AoxAYrgATXOJJi_xmyg)
 <br></br>
 <strong>
@@ -13,8 +13,10 @@ with Brian Johnson's youtube channel [click here](https://www.youtube.com/channe
 </strong>
 
 <br></br>
-NestJS의 Gateway 생성 명령어 `chat 디렉토리`와 `chat.gateway.ts 생성`
+NestJS의 Gateway 생성 명령어
 
 ```bash
 $ nest g gateway chat chat
 ```
+
+`chat 디렉토리`와 `chat.gateway.ts` 생성
