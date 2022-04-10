@@ -1,5 +1,7 @@
 ### 3개의 Chat Room이 존재하는 실시간 대화 구현
 
+`chat.gateway.ts` file
+
 ```JSX
 import { Logger } from '@nestjs/common';
 import { OnGatewayInit, SubscribeMessage, WebSocketGateway, WebSocketServer } from '@nestjs/websockets';
