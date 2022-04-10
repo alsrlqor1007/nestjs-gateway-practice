@@ -1,5 +1,7 @@
 ### Namespace 구분 없는 단순 실시간 통신 구현
 
+Only `chat.gateway.ts` file
+
 ```JSX
 import { Logger } from '@nestjs/common';
 import { OnGatewayConnection, OnGatewayDisconnect, OnGatewayInit, SubscribeMessage, WebSocketGateway, WebSocketServer, WsResponse } from '@nestjs/websockets';
@@ -7,8 +9,6 @@ import { Server, Socket } from 'socket.io';
 
 @WebSocketGateway(3001, { path: '/websockets', serveClient: true, cors: true, namespace: '/' })
 // 서버를 실행하면 3001번 포트와 기본 네임스페이스로 웹 소켓 서버가 실행된다.
-
-// namespace란
 
 export class AppGateway implements OnGatewayInit, OnGatewayConnection, OnGatewayDisconnect {
   // OnGatewayConnection: 클라이언트가 서버에 연결될 때 가동된다.
